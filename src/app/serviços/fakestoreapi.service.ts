@@ -12,6 +12,6 @@ export class FakestoreapiService {
 
   getProdutos(): Observable<any> {
     return this.http.get<any>(this.fakestoreUrl);               //get dos dados pelo link
-
+    
   }
 }

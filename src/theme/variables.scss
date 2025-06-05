@@ -1,2 +1,26 @@
-// For information on how to create your own theme, please see:
-// http://ionicframework.com/docs/theming/
+/* Importar fonte do Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+html {
+  --ion-color-primary: #222428;
+  --ion-color-secondary: #383a3e;
+  --ion-background-color: #121212;
+  --ion-text-color: #ffffff;
+}
+
+
+/* Estilo geral dos textos */
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #f0eaff;
+}
+
+
+
